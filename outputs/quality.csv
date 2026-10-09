@@ -1,0 +1,22 @@
+check,severity,count,detail
+Duplicate centre-month rows,ok,0,
+availability_pct outside 0-100,ok,0,
+share_le_7w outside 0-100,ok,0,
+share_7_14w outside 0-100,ok,0,
+share_14_21w outside 0-100,ok,0,
+share_gt_21w outside 0-100,ok,0,
+slots_total negative,ok,0,
+slots_booked negative,ok,0,
+slots_available negative,ok,0,
+overtime_slots negative,ok,0,
+median_wait_weeks negative,ok,0,
+wait_weeks_to_10pct negative,ok,0,
+Wait bands do not sum to ~100%,ok,0,
+Centres with no recent data (closed or renamed?),warning,49,Aberdeen North LGV; Ashford (London Middlesex); Barking (Tanner Street); Beverley LGV; Birmingham (Cocks Moors Woods); Birmingham (Sutton Coldfield); Birmingham (The Pavilion); Birmingham (Wyndley)
+Centre names differing only by case or spacing,ok,0,
+Centres with missing months inside their history,info,72,Often the 2020-21 test suspensions; the modelling uses each centre's latest unbroken run of data
+One-month change over 40 points,warning,425,
+Missing availability values,info,51,
+Centres excluded: under 24 months of unbroken history,info,6,Aberdeen North; Birmingham (Cocks Moors); Carlisle LGV (Cars); Isle of Tiree; Leeds (Colton Mill); Medway Ambley Road
+Centres excluded: no data in the last 3 months (closed or renamed),info,49,
+Modelling window start,info,0,Months before 2021-06-01 are shown but not modelled (booking window changed 18 -> 24 weeks)

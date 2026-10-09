@@ -1,0 +1,17 @@
+{
+  "created_utc": "2026-10-09T13:55:25+00:00",
+  "synthetic": false,
+  "source": "data/DRT122F.ods",
+  "target": "availability_pct",
+  "horizons": 3,
+  "n_origins": 18,
+  "interval_level": 0.8,
+  "centres_modelled": 314,
+  "centres_excluded": 6,
+  "centres_closed_or_stale": 49,
+  "model_start": "2021-06-01",
+  "last_data_month": "2026-08-01",
+  "baseline": "naive",
+  "champion": "naive",
+  "default_threshold": 2.3
+}

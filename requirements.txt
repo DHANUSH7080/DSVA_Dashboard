@@ -1,0 +1,9 @@
+pandas>=2.2
+numpy>=1.26
+scipy>=1.11
+statsmodels>=0.14
+odfpy>=1.4.1
+streamlit>=1.50
+plotly>=5.20
+threadpoolctl>=3.2
+pytest>=8.0

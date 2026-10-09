@@ -1,0 +1,3 @@
+approach,n,mae,mase,bias,skill_vs_baseline_pct
+Baseline only (naive),9411,2.8971841462118797,0.8888029703043667,-1.157315906917437,0.0
+Per-centre selection (ships only if it beats the baseline),9354,2.8425058798375025,0.8203535586246942,-1.159450502458841,7.701303209667754
